@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
-const IncrementDecrement = () => {
+const Count = () => {
   let [count, setCount] = useState(0);
   function handleIncrement() {
     setCount((count = count + 1));
@@ -36,4 +36,4 @@ const IncrementDecrement = () => {
   );
 };
 
-export default IncrementDecrement;
+export default Count;

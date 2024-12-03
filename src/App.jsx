@@ -1,9 +1,9 @@
-import IncrementDecrement from "./components/incrementDecrement";
+import Count from "./components/Count";
 
 const App = () => {
   return (
     <>
-      <IncrementDecrement />
+      <Count />
     </>
   );
 };
